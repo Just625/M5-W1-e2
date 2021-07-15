@@ -8,7 +8,7 @@ for (let i = 2; count < 30; i++) {
         continue;
     }
     let isPrime: boolean = true;
-    for (let j = 2; j < Math.sqrt(i); j++) {
+    for (let j = 2; j <= Math.sqrt(i); j++) {
         if(i%j==0){
             isPrime = false;
             break;
